@@ -151,7 +151,7 @@ document.addEventListener("DOMContentLoaded", function () {
     if (!submitButton.disabled) {
       const results = collectResults();
       localStorage.setItem("userSelections", JSON.stringify(results)); // 儲存結果到 localStorage
-      window.location.href = "./4.0.html/4.0.html"; // 跳轉到結果頁
+      window.location.href = "/4.0.html/4.0.html"; // 跳轉到結果頁
     }
   });
 });
