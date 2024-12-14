@@ -205,3 +205,8 @@ nav {
     transform: translateX(-100%);
   }
 }
+button {
+  background-color: transparent;
+  border: 0px;
+  cursor: url(../img/鼠標.png), auto !important;
+}
