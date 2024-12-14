@@ -130,12 +130,7 @@ document.addEventListener("DOMContentLoaded", function () {
   });
 
   // 處理送出按鈕的點擊事件
-  submitButton.addEventListener("click", () => {
-    if (!submitButton.disabled) {
-      alert("所有五官都已選擇完成，請等待結合成果...");
-      // 在此加入送出資料的邏輯
-    }
-  });
+  submitButton.addEventListener("click", () => {});
 
   // 收集選擇結果的函數
   function collectResults() {
@@ -156,7 +151,7 @@ document.addEventListener("DOMContentLoaded", function () {
     if (!submitButton.disabled) {
       const results = collectResults();
       localStorage.setItem("userSelections", JSON.stringify(results)); // 儲存結果到 localStorage
-      window.location.href = "4.0.html"; // 跳轉到結果頁
+      window.location.href = "../4.0.html/4.0.html"; // 跳轉到結果頁
     }
   });
 });
