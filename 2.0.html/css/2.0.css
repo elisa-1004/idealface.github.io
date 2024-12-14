@@ -52,16 +52,44 @@ nav {
 }
 
 .carousel-control-prev {
-  left: 100px !important;
+  left: 150px !important;
 }
-.carousel-control-next {
-  right: 100px !important;
+.carousel-control-prev img {
+  width: 300px;
+  height: 500px;
+  object-fit: contain;
 }
 
+.carousel-control-next {
+  right: 150px !important;
+}
+.carousel-control-next img {
+  width: 300px;
+  height: 500px;
+  object-fit: contain;
+}
 .carousel-inner img {
   width: 50%;
   height: 50%;
   object-fit: contain;
+}
+.carousel-control-next img.hover {
+  display: none;
+}
+.carousel-control-next:hover img.default {
+  display: none;
+}
+.carousel-control-next:hover img.hover {
+  display: block;
+}
+.carousel-control-prev img.hover {
+  display: none;
+}
+.carousel-control-prev:hover img.default {
+  display: none;
+}
+.carousel-control-prev:hover img.hover {
+  display: block;
 }
 
 .radio_style_eye {
