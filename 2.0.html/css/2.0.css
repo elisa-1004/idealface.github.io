@@ -43,14 +43,14 @@ nav {
 }
 .carousel-control-prev,
 .carousel-control-next {
-  width: 232px;
-  height: 426px;
+  width: 348px;
+  height: 639px;
   position: absolute;
-  top: 50%;
-  transform: translateY(178%);
+  transform: translateY(125%);
   cursor: url(../img/鼠標.png), auto !important;
   pointer-events: auto;
 }
+
 .carousel-control-prev {
   left: 100px !important;
 }
@@ -69,8 +69,8 @@ nav {
   height: 100px;
 }
 .radio_style_eye img {
-  width: 100%;
-  height: 100%;
+  width: 130%;
+  height: 130%;
 }
 .radio_style_nose {
   width: 90px;
@@ -88,7 +88,7 @@ nav {
 }
 .radio_wrapper {
   position: relative;
-  bottom: 560px;
+  bottom: 675px;
   left: 170px;
   margin: 20px;
 }
@@ -99,90 +99,110 @@ nav {
   width: 140px;
   position: relative;
   top: 5px;
-  right: 20px;
+  right: -20px;
 }
+
 .eye_button_default {
-  width: 130px;
-  height: 130px;
-  position: relative;
-  right: 10px;
-  bottom: -12px;
+  width: 160px;
+  height: 160px;
 }
 .eye_button_default img {
   width: 100%;
   height: 100%;
 }
+.eye_button_default_1 {
+  position: relative;
+  top: -5px;
+  left: 35px;
+}
+
 .eye_2 {
   width: 140px;
   position: relative;
-  right: 15px;
-  top: 5px;
+  right: -60px;
+  top: 3px;
+}
+.eye_button_default_2 {
+  position: relative;
+  left: 70px;
+  top: -5px;
 }
 .eye_3 {
   width: 140px;
   position: relative;
   top: 5px;
-  right: 10px;
+  right: -100px;
+}
+.eye_button_default_3 {
+  position: relative;
+  top: -5px;
+  left: 105px;
 }
 .eye_4 {
   width: 140px;
   position: relative;
-  top: 50px;
-  right: 10px;
+  top: 60px;
+  right: -20px;
 }
 .eye_button_default_4 {
   position: relative;
-  top: 50px;
+  top: 55px;
+  left: 30px;
 }
 .eye_5 {
   width: 140px;
   position: relative;
-  top: 50px;
-  right: 10px;
+  top: 60px;
+  right: -65px;
 }
 .eye_button_default_5 {
   position: relative;
-  top: 50px;
+  top: 55px;
+  left: 70px;
 }
 .eye_6 {
   width: 140px;
   position: relative;
-  top: 50px;
-  right: 10px;
+  top: 60px;
+  right: -100px;
 }
 .eye_button_default_6 {
   position: relative;
-  top: 50px;
+  top: 57px;
+  left: 110px;
 }
 .eye_7 {
   width: 140px;
   position: relative;
-  top: 90px;
-  right: 10px;
+  top: 120px;
+  right: -20px;
 }
 .eye_button_default_7 {
   position: relative;
-  top: 93px;
+  top: 121px;
+  left: 30px;
 }
 .eye_8 {
   width: 140px;
   position: relative;
-  top: 90px;
-  right: 10px;
+  top: 120px;
+  right: -65px;
 }
 .eye_button_default_8 {
   position: relative;
-  top: 93px;
+  top: 122px;
+  left: 70px;
 }
 .eye_9 {
   width: 140px;
   position: relative;
-  top: 90px;
-  right: 10px;
+  top: 120px;
+  right: -100px;
 }
 .eye_button_default_9 {
   position: relative;
-  top: 93px;
+  top: 122px;
+  left: 110px;
 }
 .noses {
   display: flex;
@@ -237,8 +257,8 @@ nav {
 
 .nose_button_default {
   position: relative;
-  width: 130px;
-  height: 130px;
+  width: 150px;
+  height: 150px;
 }
 .nose_button_default img {
   width: 100%;
@@ -1019,7 +1039,7 @@ button:disabled {
 .vase {
   position: relative;
   top: 950px;
-  left: 50px;
+  left: 90px;
   transition: opacity 0.1s ease;
 }
 .vase.hidden {
