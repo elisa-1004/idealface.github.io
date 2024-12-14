@@ -35,7 +35,7 @@ nav {
 .carousel-inner {
   position: relative;
   top: 40px;
-  left: 390px;
+  left: 480px;
 }
 .carousel {
   position: relative;
@@ -1018,7 +1018,7 @@ button:disabled {
 }
 .vase {
   position: relative;
-  top: 760px;
+  top: 950px;
   left: 50px;
   transition: opacity 0.1s ease;
 }
