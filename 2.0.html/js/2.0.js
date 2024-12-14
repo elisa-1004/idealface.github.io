@@ -155,3 +155,10 @@ document.addEventListener("DOMContentLoaded", function () {
     }
   });
 });
+document.addEventListener("DOMContentLoaded", function () {
+  const prevIcon = document.querySelector(".carousel-control-prev-icon");
+  const nextIcon = document.querySelector(".carousel-control-next-icon");
+
+  if (prevIcon) prevIcon.style.display = "none"; // 隱藏預設的左按鈕圖示
+  if (nextIcon) nextIcon.style.display = "none"; // 隱藏預設的右按鈕圖示
+});
