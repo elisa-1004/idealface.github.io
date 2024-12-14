@@ -210,3 +210,9 @@ button {
   border: 0px;
   cursor: url(../img/鼠標.png), auto !important;
 }
+button:hover img.default {
+  display: none;
+}
+button:hover img.hover {
+  display: block;
+}
