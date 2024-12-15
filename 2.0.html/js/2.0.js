@@ -162,3 +162,16 @@ document.addEventListener("DOMContentLoaded", function () {
   if (prevIcon) prevIcon.style.display = "none"; // 隱藏預設的左按鈕圖示
   if (nextIcon) nextIcon.style.display = "none"; // 隱藏預設的右按鈕圖示
 });
+document.addEventListener("DOMContentLoaded", function () {
+  const allRadios = document.querySelectorAll('input[type="radio"]');
+  const audio = new Audio("./sound/鈴聲1.wav"); // 音效檔案路徑
+
+  // 為每個 radio 添加 change 事件監聽器
+  allRadios.forEach((radio) => {
+    radio.addEventListener("change", () => {
+      // 播放音效
+      audio.currentTime = 0; // 確保每次點擊都從頭播放
+      audio.play();
+    });
+  });
+});
