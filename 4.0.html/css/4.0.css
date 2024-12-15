@@ -85,7 +85,7 @@ nav {
   width: 220px !important;
   height: auto;
   position: relative;
-  top: 350px;
+  top: 400px;
   left: 840px;
 }
 
@@ -93,7 +93,7 @@ nav {
   width: 65px !important;
   height: auto;
   position: relative;
-  top: 300px;
+  top: 350px;
   left: 917px;
 }
 
@@ -101,7 +101,7 @@ nav {
   width: 240px !important;
   height: auto;
   position: relative;
-  top: 160px;
+  top: 210px;
   left: 830px;
 }
 
@@ -109,7 +109,7 @@ nav {
   width: 90px !important;
   height: auto;
   position: relative;
-  top: 280px;
+  top: 330px;
   right: -905px;
 }
 
@@ -118,7 +118,7 @@ nav {
   height: auto;
   position: relative;
   right: -700px;
-  top: -200px;
+  top: -150px;
   z-index: 0 !important;
 }
 .input_wrapper img {
