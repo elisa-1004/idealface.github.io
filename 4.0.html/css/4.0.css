@@ -141,13 +141,13 @@ nav {
 .vase_left {
   width: 400px;
   position: relative;
-  bottom: 1045px;
+  bottom: 1000px;
   left: 100px;
 }
 .vase_right {
   width: 400px;
   position: relative;
-  bottom: 1045px;
+  bottom: 1000px;
   left: 950px;
 }
 /* 送出按鈕樣式 */
